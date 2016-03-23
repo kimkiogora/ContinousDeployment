@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="#">
 
-    <title>mSacco</title>
+    <title>Continuous Deployment</title>
 
     <!-- Bootstrap core CSS -->
     <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -95,9 +95,7 @@
 </head>
 <body onload="noBack();" onpageshow="if (event.persisted) noBack();" onunload="">
 <div class="inner cover">
-    <h1 class="cover-heading"><font color="#ffffff">m-Sacco, an easy way to pay for emergencies</font></h1>
-
-    <h1 class="cover-heading"><font color="#ffffff">Dial *911# now</font></h1>
+    <h1 class="cover-heading"><font color="#ffffff">Continuous Deployment, an easy way to deploy software</font></h1>
 </div>
 <div class="container">
     <div class="row">
@@ -148,7 +146,7 @@
                     {% endif %}
                 </div>
                 <div class="panel-footer">
-                    Need an emergency mobile bank ? <a href="#">Dial *911#</a>&nbsp; now
+                    Need an account ? <a href="{{ url_for('create_account') }}">Sign up here</a>
                 </div>
             </div>
         </div>
